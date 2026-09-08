@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="780" viewBox="0 0 1280 780" font-family="'Microsoft YaHei','PingFang SC',Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#eef2f7"/>
+    </linearGradient>
+    <linearGradient id="gBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="gGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#16a34a"/>
+    </linearGradient>
+    <linearGradient id="gRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ef4444"/><stop offset="1" stop-color="#dc2626"/>
+    </linearGradient>
+    <linearGradient id="gAmber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.16"/>
+    </filter>
+    <marker id="arrGray" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#475569"/>
+    </marker>
+    <marker id="arrRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrAmber" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#d97706"/>
+    </marker>
+    <marker id="arrGreen" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#16a34a"/>
+    </marker>
+  </defs>
+<rect x="0" y="0" width="1280" height="780" fill="url(#bg)"/><text x="640" y="44" text-anchor="middle" font-size="25" font-weight="700" fill="#0f172a">图2　一次个性化钓鱼的端到端时序</text><g filter="url(#shadow)"><rect x="80" y="70" width="160" height="52" rx="14" fill="url(#gRed)"/><text x="160" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">攻击者/LLM</text></g><g filter="url(#shadow)"><rect x="390" y="70" width="160" height="52" rx="14" fill="url(#gAmber)"/><text x="470" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">投递(网关)</text></g><g filter="url(#shadow)"><rect x="680" y="70" width="160" height="52" rx="14" fill="url(#gGreen)"/><text x="760" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">目标员工</text></g><g filter="url(#shadow)"><rect x="1000" y="70" width="160" height="52" rx="14" fill="url(#gRed)"/><text x="1080" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">失陷/后续</text></g><line x1="160" y1="122" x2="160" y2="720" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4 4"/><line x1="470" y1="122" x2="470" y2="720" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4 4"/><line x1="760" y1="122" x2="760" y2="720" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4 4"/><line x1="1080" y1="122" x2="1080" y2="720" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4 4"/><path d="M160,175 C315,161 315,161 470,175" stroke="#475569" stroke-width="3" fill="none" marker-end="url(#arrRed)"/><text x="315" y="157" text-anchor="middle" font-size="13" font-weight="600" fill="#475569">构建画像: 张伟/财务/Q3预算</text><path d="M160,235 C315,221 315,221 470,235" stroke="#475569" stroke-width="3" fill="none" marker-end="url(#arrRed)"/><text x="315" y="217" text-anchor="middle" font-size="13" font-weight="600" fill="#475569">生成个性化邮件(含姓名/近期事项)</text><path d="M470,295 C315,281 315,281 160,295" stroke="#16a34a" stroke-width="3" fill="none" marker-end="url(#arrRed)"/><text x="315" y="277" text-anchor="middle" font-size="13" font-weight="600" fill="#16a34a">网关打分=25(PASS) 放行</text><path d="M470,360 C615,346 615,346 760,360" stroke="#dc2626" stroke-width="3" fill="none" marker-end="url(#arrRed)"/><text x="615" y="342" text-anchor="middle" font-size="13" font-weight="600" fill="#dc2626">投递至收件箱(未被拦)</text><path d="M760,420 C615,406 615,406 470,420" stroke="#475569" stroke-width="3" fill="none" marker-end="url(#arrRed)"/><text x="615" y="402" text-anchor="middle" font-size="13" font-weight="600" fill="#475569">阅读:『关于Q3预算,请查收』</text><path d="M760,480 C615,466 615,466 470,480" stroke="#dc2626" stroke-width="3" fill="none" marker-end="url(#arrRed)"/><text x="615" y="462" text-anchor="middle" font-size="13" font-weight="600" fill="#dc2626">可信度高→点击链接</text><path d="M760,540 C920,526 920,526 1080,540" stroke="#dc2626" stroke-width="3" fill="none" marker-end="url(#arrRed)"/><text x="920" y="522" text-anchor="middle" font-size="13" font-weight="600" fill="#dc2626">访问伪造表单(凭证外发)</text><path d="M1080,600 C920,586 920,586 760,600" stroke="#dc2626" stroke-width="3" fill="none" marker-end="url(#arrRed)"/><text x="920" y="582" text-anchor="middle" font-size="13" font-weight="600" fill="#dc2626">入口失陷→横向移动</text><path d="M160,660 C315,646 315,646 470,660" stroke="#475569" stroke-width="3" fill="none" marker-end="url(#arrRed)"/><text x="315" y="642" text-anchor="middle" font-size="13" font-weight="600" fill="#475569">模板邮件: 停用/验证/链接→打分100</text><path d="M470,710 C315,696 315,696 160,710" stroke="#16a34a" stroke-width="3" fill="none" marker-end="url(#arrRed)"/><text x="315" y="692" text-anchor="middle" font-size="13" font-weight="600" fill="#16a34a">网关 BLOCK 8/8 拦截</text><text x="640" y="745" text-anchor="middle" font-size="15" font-weight="700" fill="#dc2626">▲ 同一目标，模板被拦、个性化直达——差距来自「像不像内部邮件」</text></svg>

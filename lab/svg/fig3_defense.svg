@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="780" viewBox="0 0 1280 780" font-family="'Microsoft YaHei','PingFang SC',Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#eef2f7"/>
+    </linearGradient>
+    <linearGradient id="gBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="gGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#16a34a"/>
+    </linearGradient>
+    <linearGradient id="gRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ef4444"/><stop offset="1" stop-color="#dc2626"/>
+    </linearGradient>
+    <linearGradient id="gAmber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.16"/>
+    </filter>
+    <marker id="arrGray" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#475569"/>
+    </marker>
+    <marker id="arrRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrAmber" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#d97706"/>
+    </marker>
+    <marker id="arrGreen" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#16a34a"/>
+    </marker>
+  </defs>
+<rect x="0" y="0" width="1280" height="780" fill="url(#bg)"/><text x="640" y="44" text-anchor="middle" font-size="25" font-weight="700" fill="#0f172a">图3　AI 钓鱼防御矩阵</text><g filter="url(#shadow)"><rect x="60" y="110" width="300" height="120" rx="16" fill="#ffffff" stroke="url(#gBlue)" stroke-width="2.5"/><rect x="60" y="110" width="300" height="40" rx="16" fill="url(#gBlue)"/><rect x="60" y="130" width="300" height="20" fill="url(#gBlue)"/><text x="210" y="137" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">画像侧</text><text x="210" y="160" text-anchor="middle" font-size="13" fill="#334155">员工公开信息最小化</text><text x="210" y="182" text-anchor="middle" font-size="13" fill="#334155">社媒/官网脱敏</text><text x="210" y="204" text-anchor="middle" font-size="13" fill="#334155">高管(鲸鱼)重点保护</text></g><path d="M360,170 C390,170 320,170 320,170" stroke="#16a34a" stroke-width="3" fill="none" marker-end="url(#arrGreen)"/><g filter="url(#shadow)"><rect x="60" y="250" width="300" height="120" rx="16" fill="#ffffff" stroke="url(#gAmber)" stroke-width="2.5"/><rect x="60" y="250" width="300" height="40" rx="16" fill="url(#gAmber)"/><rect x="60" y="270" width="300" height="20" fill="url(#gAmber)"/><text x="210" y="277" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">邮件侧
+(网关)</text><text x="210" y="300" text-anchor="middle" font-size="13" fill="#334155">发件域强校验(DMARC)</text><text x="210" y="322" text-anchor="middle" font-size="13" fill="#334155">链接域实时比对</text><text x="210" y="344" text-anchor="middle" font-size="13" fill="#334155">行为/语义模型</text></g><path d="M360,310 C390,310 320,310 320,310" stroke="#16a34a" stroke-width="3" fill="none" marker-end="url(#arrGreen)"/><g filter="url(#shadow)"><rect x="60" y="390" width="300" height="120" rx="16" fill="#ffffff" stroke="url(#gBlue)" stroke-width="2.5"/><rect x="60" y="390" width="300" height="40" rx="16" fill="url(#gBlue)"/><rect x="60" y="410" width="300" height="20" fill="url(#gBlue)"/><text x="210" y="417" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">人员侧
+(意识)</text><text x="210" y="440" text-anchor="middle" font-size="13" fill="#334155">钓鱼演练常态化</text><text x="210" y="462" text-anchor="middle" font-size="13" fill="#334155">"悬停看真域名"</text><text x="210" y="484" text-anchor="middle" font-size="13" fill="#334155">可疑即报不点链</text></g><path d="M360,450 C390,450 320,450 320,450" stroke="#16a34a" stroke-width="3" fill="none" marker-end="url(#arrGreen)"/><g filter="url(#shadow)"><rect x="60" y="530" width="300" height="120" rx="16" fill="#ffffff" stroke="url(#gAmber)" stroke-width="2.5"/><rect x="60" y="530" width="300" height="40" rx="16" fill="url(#gAmber)"/><rect x="60" y="550" width="300" height="20" fill="url(#gAmber)"/><text x="210" y="557" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">响应侧</text><text x="210" y="580" text-anchor="middle" font-size="13" fill="#334155">一键举报+自动隔离</text><text x="210" y="602" text-anchor="middle" font-size="13" fill="#334155">同源邮件回溯</text><text x="210" y="624" text-anchor="middle" font-size="13" fill="#334155">凭据泄露速轮换</text></g><path d="M360,590 C390,590 320,590 320,590" stroke="#16a34a" stroke-width="3" fill="none" marker-end="url(#arrGreen)"/><g filter="url(#shadow)"><rect x="60" y="670" width="300" height="120" rx="16" fill="#ffffff" stroke="url(#gRed)" stroke-width="2.5"/><rect x="60" y="670" width="300" height="40" rx="16" fill="url(#gRed)"/><rect x="60" y="690" width="300" height="20" fill="url(#gRed)"/><text x="210" y="697" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">技术侧
+(零信任)</text><text x="210" y="720" text-anchor="middle" font-size="13" fill="#334155">MFA/防钓鱼令牌</text><text x="210" y="742" text-anchor="middle" font-size="13" fill="#334155">链接不直接给凭证</text><text x="210" y="764" text-anchor="middle" font-size="13" fill="#334155">微隔离限制横向</text></g><path d="M360,730 C390,730 320,730 320,730" stroke="#16a34a" stroke-width="3" fill="none" marker-end="url(#arrGreen)"/><g filter="url(#shadow)"><rect x="360" y="110" width="470" height="680" rx="16" fill="#ffffff" stroke="url(#gGreen)" stroke-width="2.5"/><rect x="360" y="110" width="470" height="40" rx="16" fill="url(#gGreen)"/><rect x="360" y="130" width="470" height="20" fill="url(#gGreen)"/><text x="595" y="137" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">目标：把「到达+点击」两条线都打穿</text><text x="595" y="160" text-anchor="middle" font-size="13" fill="#14532d">① 画像侧: 减少可被模型利用的公开素材</text><text x="595" y="182" text-anchor="middle" font-size="13" fill="#14532d">② 邮件侧: 让个性化邮件也过不了网关</text><text x="595" y="204" text-anchor="middle" font-size="13" fill="#14532d">③ 人员侧: 即便到达也不点(最后一公里)</text><text x="595" y="226" text-anchor="middle" font-size="13" fill="#14532d">④ 响应侧: 点了也能快速止损</text><text x="595" y="248" text-anchor="middle" font-size="13" fill="#14532d">⑤ 技术侧: 点了也拿不到核心凭据</text><text x="595" y="270" text-anchor="middle" font-size="13" fill="#14532d"></text><text x="595" y="292" text-anchor="middle" font-size="13" fill="#14532d">结论: 单点防御必漏——</text><text x="595" y="314" text-anchor="middle" font-size="13" fill="#14532d">网关(邮件侧)+意识(人员侧)+零信任(技术侧)</text><text x="595" y="336" text-anchor="middle" font-size="13" fill="#14532d">三层叠加才稳</text></g></svg>

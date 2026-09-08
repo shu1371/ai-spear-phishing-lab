@@ -1,0 +1,5 @@
+__pycache__/
+article.md
+*.pyc
+lab/outputs/*.log
+.DS_Store
