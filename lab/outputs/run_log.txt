@@ -1,0 +1,27 @@
+===== 基线：模板钓鱼（通用伪装，无个性化）=====
+[temp] temp 张伟           gw=BLOCK  score=100 click=False | 您的邮箱将于 24 小时内停用，请尽快处理
+[temp] temp 李娜           gw=BLOCK  score=100 click=False | 您的邮箱将于 24 小时内停用，请尽快处理
+[temp] temp 王强           gw=BLOCK  score=100 click=False | 您的邮箱将于 24 小时内停用，请尽快处理
+[temp] temp 陈静           gw=BLOCK  score=100 click=False | 您的邮箱将于 24 小时内停用，请尽快处理
+[temp] temp 刘洋           gw=BLOCK  score=100 click=False | 您的邮箱将于 24 小时内停用，请尽快处理
+[temp] temp 赵敏           gw=BLOCK  score=100 click=False | 您的邮箱将于 24 小时内停用，请尽快处理
+[temp] temp 孙磊           gw=BLOCK  score=100 click=False | 您的邮箱将于 24 小时内停用，请尽快处理
+[temp] temp 周婷           gw=BLOCK  score=100 click=False | 您的邮箱将于 24 小时内停用，请尽快处理
+==> template: 拦截 8/8 | 到达 0 | 点击 0/0 (点击率 0%)
+
+===== 攻击：个性化钓鱼（注入目标画像）=====
+[pers] pers 张伟           gw=PASS   score=25  click=True  | 关于正在做 Q3 预算的事宜，请查收
+[pers] pers 李娜           gw=PASS   score=25  click=True  | 关于校招季招聘的事宜，请查收
+[pers] pers 王强           gw=PASS   score=25  click=True  | 关于上線一个新服务的事宜，请查收
+[pers] pers 陈静           gw=PASS   score=25  click=False | 关于供应商对账的事宜，请查收
+[pers] pers 刘洋           gw=PASS   score=25  click=False | 关于冲刺季度业绩的事宜，请查收
+[pers] pers 赵敏           gw=PASS   score=25  click=False | 关于合同合规审查的事宜，请查收
+[pers] pers 孙磊           gw=PASS   score=25  click=False | 关于迁移邮箱系统的事宜，请查收
+[pers] pers 周婷           gw=PASS   score=25  click=True  | 关于筹备行业展会的事宜，请查收
+==> personal: 拦截 0/8 | 到达 8 | 点击 4/8 (点击率 50%)
+
+===== 汇总 =====
+模板钓鱼     : 网关拦截 8/8 | 到达 0 | 点击 0 (点击率 0.0%)
+个性化钓鱼   : 网关拦截 0/8 | 到达 8 | 点击 4 (点击率 50.0%)
+
+注：攻击方还可通过「发件域名仿冒 + 无高危关键词」进一步压低网关分数（见 article.md 讨论）。
